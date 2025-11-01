@@ -1,0 +1,21 @@
+{
+  "name": "finance-tracker-ui",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 3000 --strictPort"
+  },
+  "dependencies": {
+    "@splinetool/react-spline": "^2.3.7",
+    "lucide-react": "^0.453.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
